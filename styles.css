@@ -1,0 +1,60 @@
+****normalize
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background:url(/images/menu-background.jpeg) ;
+background-size: cover;
+}
+nav>ul{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #333;
+}
+nav>ul>li{
+    color: white;
+    padding: 0.75rem 1rem;
+}
+main{
+    
+    background-color: white;
+    max-width: 1024px;
+    margin: 7rem auto;
+    border: solid #ffaf31 5px;
+    border-radius: 15px 50px 15px 50px;
+    padding: 0 1rem;
+}
+#hero{
+    background: url(/images/chickenParmesan.webp) no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+h1{
+    color: white;
+    font-size: 70pt;
+    font-family: 'Voltage';
+    text-align: center;
+    margin-top: 50px;
+}
+.menu-items{
+    margin:5rem auto;
+    padding: 0 5rem;
+    column-count:2;
+    column-gap: 1.5rem;
+}
+.menu-items_item{
+    padding: 1rem;
+    page-break-inside: avoid;
+}
+footer{
+    text-align: center;
+    background-color: #a9a9a95c;
+    padding: 1rem;
+}
